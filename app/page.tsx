@@ -58,9 +58,7 @@ export default function Home() {
     >
       <Card className="w-full max-w-screen-sm space-y-5">
         <CardHeader>
-          <CardTitle className="text-dark-gray text-2xl">
-            <h1>Contact Us</h1>
-          </CardTitle>
+          <h1 className="text-dark-gray text-2xl">Contact Us</h1>
         </CardHeader>
         <CardContent>
           <Form {...loginForm}>

@@ -124,7 +124,6 @@ export default function Home() {
                       </FormLabel>
                       <FormControl className="outline-slate-400 outline-1 outline">
                         <Input
-                          autoComplete="false"
                           type="email"
                           placeholder="johndoe@example.com"
                           {...field}
@@ -155,12 +154,7 @@ export default function Home() {
                             aria-label="General Enquiry"
                           />
                         </FormControl>
-                        <Label
-                          aria-labelledby="general-enquiry"
-                          htmlFor="general-enquiry"
-                        >
-                          General Enquiry
-                        </Label>
+                        <Label htmlFor="general-enquiry">General Enquiry</Label>
                       </div>
 
                       <div className="h-9 sm:w-full  flex items-center space-x-2 outline-slate-400 outline-1 outline px-5 py-2 rounded-sm">
@@ -171,12 +165,7 @@ export default function Home() {
                             aria-label="Support Request"
                           />
                         </FormControl>
-                        <Label
-                          aria-labelledby="support-request"
-                          htmlFor="support-request"
-                        >
-                          Support Request
-                        </Label>
+                        <Label htmlFor="support-request">Support Request</Label>
                       </div>
                     </RadioGroup>
                   </FormControl>

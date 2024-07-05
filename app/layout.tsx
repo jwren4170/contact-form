@@ -22,10 +22,13 @@ export default function RootLayout({
         <meta
           name="description"
           content="Contact Form challenge frontendmentor"
+          property="og:description"
         />
       </head>
-      <body className={`${karla.className}`}>{children}</body>
-      <ToastContainer />
+      <body className={`${karla.className}`}>
+        {children}
+        <ToastContainer />
+      </body>
     </html>
   );
 }
